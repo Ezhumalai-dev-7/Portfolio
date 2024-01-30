@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/8d2d46acc7.js" crossorigin="anonymous"></script>
+
+</head>
+  
+<body>
+  <div id="Header">
+    <div class="container">
+      <nav>
+        <img src="Images/seven logo.png" alt="" width="170px" height="170px" />
+        <ul id="sidemenu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">contact</a></li>
+          <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+      </nav>
+    </div>
+    <div class="header-text1">
+      <div class="header-text">
+        <h3 class="title-uiux">UI/UX Designer</h3>
+        <br />
+        <p>
+          Hi I am <span>Ezhumalai</span> My background in front-end
+          development and user interfaces would make me a great fit for the UX
+          Designer position at XYZ Company.
+        </p>
+      </div>
+      <div class="profileimage">
+        <img src="./Images/seven.png" class="profileimage1" width="450vh" height="550vh"/>
+      </div>
+    </div>
+    <div class="aboutOutCon">
+      <div class="about">
+        <div class="aboutimage">
+          <img src="./Images/3-01.jpg" width="380vh" height="480vh" alt=""
+            style="object-fit: cover; border-radius: 3px"/>
+        </div>
+
+        <div class="aboutme">
+          <h2>About me</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas
+            tenetur nesciunt vel. Fuga, voluptate id! Eligendi soluta quis
+            tempora sapiente quos deserunt doloribus facilis rem fugiat ad,
+            sed quisquam, ipsa quo culpa saepe cum, amet expedita. Culpa
+            dolorem totam accusantium libero, ad nostrum consequatur
+            laboriosam rem eligendi voluptas sed velit repellat deleniti
+            explicabo incidunt at quod exercitationem corrupti tempora
+            veritatis hic
+          </p>
+
+          <div class="tab-titles">
+            <p class="tab-Links active-link" onclick="switchTab('skills')">Skills</p>
+            <p class="tab-Links" onclick="switchTab('experience')">Experience</p>
+            <p class="tab-Links" onclick="switchTab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br><br>Web Application & User interfaces</li>
+              <li><span>Web development</span><br><br>Web Application</li>
+              <li><span>App development</span><br><br>Building Android & Ios Application</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>Delphi Tvs (2020-2021)</span><br><br>I have Worked For One Year In that Company As a Quality
+                Engineer.</li>
+              <li><span>UI/UX Design (2021)</span><br><br>I have Created The Career Application. While we Attending The
+                Bootcamp Of Design Boat</li>
+              <li><span>CODIIS (2022)</span><br><br>It's been One Year Completed in my Current Company As a UX Designer.
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2013</span><br><br>I Have Made My SSLC Graduation In GHSS at Nainarpalayam</li>
+              <li><span>2015</span><br><br>I Have Made My HSC Graduation In GHSS at Nainarpalayam</li>
+              <li><span>2015-2019</span><br><br>I have got My Engineering Graduation at Annamalai University</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="services">
+      <div>
+        <h1 class="sub-title">My services</h1>
+        <div class="container2">
+          <div class="services-list card">
+            <h2>Web Design <i class="fa-sharp fa-solid fa-code"></i></h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit non asperiores ipsam quo esse maxime
+              suscipit. Eaque aperiam ipsam animi. </p><br><br>
+            <a href="#">learn more</a>
+          </div>
+          <div class="services-list">
+            <h2>UI/UX Design <i class="fa-solid fa-laptop"></i></h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit non asperiores ipsam quo esse maxime
+              suscipit. Eaque aperiam ipsam animi. </p><br><br>
+            <a href="#">learn more</a>
+          </div>
+          <div class="services-list">
+            <h2>App Design <i class="fa-solid fa-mobile-screen-button"></i></h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit non asperiores ipsam quo esse maxime
+              suscipit. Eaque aperiam ipsam animi. </p><br><br>
+            <a href="#">learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="Portfolio">
+      <div>
+        <h1 class="sub-title">My Works</h1>
+        <div class="container3">
+          <div class="tagline"><img src="./Images/Web, Design.jpg" width="350px" height="350px" alt=""
+              style="object-fit: cover; border-radius:3px">
+              <div class="tag_sub_line">
+            <h3>Web Design</h3>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, explicabo Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          </div>
+          <div class="tagline"><img src="./Images/UIUX Design.jpg" width="350px" height="350px" alt=""
+              style="object-fit: cover; border-radius: 3px">
+              <div class="tag_sub_line">
+            <h3>UI/UX Design</h3>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, explicabo Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          </div>
+          <div class="tagline"><img src="./Images/App Design.jpg" width="350px" height="350px" alt=""
+              style="object-fit: cover; border-radius: 3px">
+              <div class="tag_sub_line">
+            <h3>App Design</h3>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, explicabo Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          </div>
+          <a class="seemore" href="">View more</a> 
+         
+
+
+        </div>
+        </div>
+
+      <div id="contact">
+        <div class="container-con">
+          <div class="leftcontact">
+            <h1 class="sub-titlecon">Contact me</h1>
+            
+            <p><i class="fa-solid fa-envelope"></i>ezhumalaiduraipushpa@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>+91-6379868981</p>
+            <div class="socialmedia">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+            </div>
+            <a href="./Images/Ezhumalai UX UI Designer.pdf" download class="cv-btn">Download CV</a> 
+           
+          </div>
+          <div class="rightcontact"><form>
+            <input type="text" name="Name" placeholder="Your name" required>
+            <input type="email" name="mail" placeholder="Your Email id" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button class="submit-btn">submit</button>
+          </form></div>
+        </div>
+       
+        
+      </div>
+      <div class="rights"><p>Copyright &copy Seven. Made with  <i class="fa-solid fa-heart"></i>by Easy Tutorials</p></div> 
+     
+      
+     
+      
+      
+
+
+
+      <script>
+        // let links = document.getElementsByClassName("tab-Links");
+        // let linkContent = document.getElementsByClassName("tab-contents");
+
+        // function switchTab(tabname){
+        //   console.log(tabname);
+        //     for(link of links){
+        //       link.classList.remove("active-link")
+        //     }
+        //     for(content of linkContent){
+        //       content.classList.remove("active-tab")
+        //     }
+        //     event.currentTarget.classList.add("active-link");
+        //     document.getElementById(tabname).classList.add("active-tab");
+        // }
+
+        let links = document.getElementsByClassName("tab-Links");
+        let linkContent = document.getElementsByClassName("tab-contents");
+        function switchTab(tabname) {
+          for (link of links) {
+            link.classList.remove("active-link");
+          }
+          for (content of linkContent) {
+            content.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+        }
+
+      </script>
+      <script>
+        let sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+          sidemenu.style.right="0"
+          
+        }
+        function closemenu() {
+          sidemenu.style.right="-270px"
+          
+        }
+      </script>
+</body>
+
+</html>
